@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+    @apply flex items-center font-burtons text-3xl
+}
+
+.button1 {
+    background-color: salmon;
+}

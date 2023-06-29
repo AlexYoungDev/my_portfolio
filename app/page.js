@@ -1,23 +1,26 @@
 import Head from "next/head";
-import {BsFillMoonStarsFill} from "react-icons/bs";
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from "react-icons/ai"
+// import {BsFillMoonStarsFill} from "react-icons/bs";
+// import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from "react-icons/ai"
 import Image from "next/image";
 import deved from "../public/avatar.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/pokeastro1.png";
-import web2 from "../public/reseau_social2.png";
-import web3 from "../public/p5_e-commerce_1.png";
-import web4 from "../public/insta_almaauch3.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+// import web1 from "../public/pokeastro1.png";
+// import web2 from "../public/reseau_social2.png";
+// import web3 from "../public/p5_e-commerce_1.png";
+// import web4 from "../public/insta_almaauch3.png";
+// import web5 from "../public/web5.png";
+// import web6 from "../public/web6.png";
 // import { useState } from "react";
+import Projects from './components/Projects/Projects'
+import Navbar from "./components/Navbar/Navbar";
 
 export default function Home() {
   // const [darkMode, setDarkMode] = useState(false);
   return (
     <div>
+      <Navbar/>
       {/* className={darkMode ? "dark" : "" */}
       <Head>
         <title>My Portfolio</title>
@@ -31,7 +34,7 @@ export default function Home() {
             <h1 className="text-xl font-burtons">Developer</h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill className="cursor-pointer text-2xl"/>
+                {/* <BsFillMoonStarsFill className="cursor-pointer text-2xl"/> */}
                 {/* onClick={() => setDarkMode(!darkMode)}  */}
               </li>
               <li>
@@ -41,16 +44,16 @@ export default function Home() {
 
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Alexandre</h2>
-            <h3 className="text-2xl py-2 md:text-3xl">Young Developer</h3>
+            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl font-burtons">Alexandre</h2>
+            <h3 className="text-2xl py-2 md:text-3xl font-burtons">Young Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-lg max-w-xl mx-auto">Young and passionate web developer, I am ready to create outstanding online experiences with my technical expertise and boundless creativity. Ready to tackle any challenge to make your business shine on the web!</p> 
           </div>
 
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+          {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <AiFillTwitterCircle/>
             <AiFillLinkedin/>
             <AiFillYoutube/>
-          </div>
+          </div> */}
 
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-2 overflow-hidden md:h-96 md:w-96">
             {/* <Image src={deved} layout="fill" objectFit="cover"/> */}
@@ -103,7 +106,7 @@ export default function Home() {
             </div>
         </section>
 
-        <section>
+        {/* <section>
           <div>
             <h3 className="text-3xl py-1">My Projects</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat fugiat debitis iure, praesentium illum. Architecto, laboriosam aliquam molestias placeat ipsam animi est aspernatur reprehenderit recusandae? Est labore a provident?</p>
@@ -129,8 +132,9 @@ export default function Home() {
               <Image src={web6} className="rounded-lg object-lg" width={"100%"} height={"100%"} layout="responsive"/>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
+        <Projects/>
     </div>
   )
 }              
@@ -139,3 +143,11 @@ export default function Home() {
 // 1 : text-center
 // 2 : layout=responsive
 // 3 : useState
+
+// Navbar
+// Hero
+// Bio
+// Technos
+// Projects
+// Contact
+// Footer
