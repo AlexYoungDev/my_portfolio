@@ -1,17 +1,17 @@
 import React from "react";
 import "./Navbar.css";
 import Image from "next/image";
-import ramen from "../../../public/ramen3.png";
+import ramen from "../../../public/ying_yang.png";
 
 const Navbar = () => {
   return (
-    <div>
-      <div>
-        <div className="title">
-          <Image src={ramen} className="h-10 w-10" alt="konoha" />
-          <span>My Portfolio</span>
-        </div>
-        <ul>
+    <div className="navbar">
+      <div className="title">
+        <Image src={ramen} className="ying" alt="ying_yang" />
+        <span className="myportfolio">My Portfolio</span>
+      </div>
+      <div className="divmenu">
+        <ul className="menu">
           <li>
             <a className="button1" href="">
               Home
