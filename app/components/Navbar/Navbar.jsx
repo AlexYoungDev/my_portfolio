@@ -18,13 +18,19 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="">About</a>
+            <a className="button2" href="">
+              About
+            </a>
           </li>
           <li>
-            <a href="">Pojects</a>
+            <a className="button3" href="">
+              Pojects
+            </a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a className="button4" href="">
+              Contact
+            </a>
           </li>
         </ul>
       </div>

@@ -3,31 +3,42 @@
 @tailwind utilities;
 
 /* bg-slate-400 */
+.navbar {
+    @apply flex flex-col p-4 md:p-0 mt-4 font-medium md:flex-row md:space-x-16 md:mt-0 md:border-0 md:bg-white;
+}
+
 .title {
-    @apply flex items-center font-burtons text-3xl
+    @apply flex items-center font-burtons text-3xl pt-3;
 }
 
 .ying {
-    @apply h-10 w-10 ml-20
+    @apply h-10 w-10 ml-20;
 }
 
 .myportfolio {
-    @apply pt-6 px-5
-}
-
-.navbar {
-    @apply flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700
-    /* @apply bg-slate-400 */
+    @apply pt-3 px-3;
 }
 
 .divmenu {
-    @apply items-center justify-between hidden w-full md:flex md:w-auto md:order-1;
+    @apply items-center justify-between hidden md:flex md:w-auto md:order-1 relative h-20;
 }
 
-.menu {
-    @apply flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700
+.menu { 
+    @apply flex flex-col md:flex-row md:space-x-10 pt-10 pl-96 absolute -inset-x-10 top-0;
 }
 
 .button1 {
-    background-color: salmon;
+    @apply bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full
+}
+
+.button2 {
+    @apply bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full
+}
+
+.button3 {
+    @apply bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full
+}
+
+.button4 {
+    @apply bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full
 }
