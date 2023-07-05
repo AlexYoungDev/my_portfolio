@@ -4,11 +4,12 @@
 
 /* bg-slate-400 */
 .navbar {
-    @apply flex flex-col p-4 md:p-0 mt-4 font-medium md:flex-row md:space-x-16 md:mt-0 md:border-0 md:bg-white;
+    @apply flex flex-col p-4 md:p-0 mt-4 font-medium md:flex-row md:space-x-16 md:mt-0 md:border-0 bg-amber-100;
 }
+/* md:bg-white */
 
 .title {
-    @apply flex items-center font-burtons text-3xl pt-3;
+    @apply flex items-center font-burtons text-3xl pt-3; 
 }
 
 .ying {
@@ -26,19 +27,20 @@
 .menu { 
     @apply flex flex-col md:flex-row md:space-x-10 pt-10 pl-96 absolute -inset-x-10 top-0;
 }
+/* text-align : center  */
 
 .button1 {
-    @apply bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full
+    @apply flex items-center hover:text-blue-500 transition-colors;
 }
 
 .button2 {
-    @apply bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full
+    @apply flex items-center hover:text-blue-500 transition-colors;
 }
 
 .button3 {
-    @apply bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full
+    @apply flex items-center hover:text-blue-500 transition-colors;
 }
 
 .button4 {
-    @apply bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full
+    @apply flex items-center hover:text-blue-500 transition-colors;
 }
