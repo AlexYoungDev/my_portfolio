@@ -13,14 +13,16 @@ import consulting from "../public/consulting.png";
 // import web5 from "../public/web5.png";
 // import web6 from "../public/web6.png";
 // import { useState } from "react";
-import Projects from './components/Projects/Projects'
+import Projects from "./components/Projects/Projects";
 import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 
 export default function Home() {
   // const [darkMode, setDarkMode] = useState(false);
   return (
     <div className="bg-amber-100">
       <Navbar/>
+      <Hero/>
       {/* className={darkMode ? "dark" : "" */}
       <main className="bg-white px-10 md:px-20 lg:px40 dark:bg-gray-900">
         <section className="min-h-screen">
@@ -37,11 +39,11 @@ export default function Home() {
             </ul>
 
           </nav>
-          <div className="text-center p-10">
+          {/* <div className="text-center p-10">
             <h2 className="text-5xl py-2 font-medium md:text-6xl font-burtons">Alexandre</h2>
             <h3 className="text-2xl py-2 md:text-3xl font-burtons">Young Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-lg max-w-xl mx-auto">Young and passionate web developer, I am ready to create outstanding online experiences with my technical expertise and boundless creativity. Ready to tackle any challenge to make your business shine on the web!</p> 
-          </div>
+          </div> */}
 
           {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <AiFillTwitterCircle/>
@@ -49,10 +51,10 @@ export default function Home() {
             <AiFillYoutube/>
           </div> */}
 
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-2 overflow-hidden md:h-96 md:w-96">
-            {/* <Image src={deved} layout="fill" objectFit="cover"/> */}
+          {/* <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-2 overflow-hidden md:h-96 md:w-96">
+            <Image src={deved} layout="fill" objectFit="cover"/>
           <Image src={deved} alt="logo" fill style={{objectFit:"cover"}}/>
-          </div>
+          </div> */}
         </section>
         
         <section>
