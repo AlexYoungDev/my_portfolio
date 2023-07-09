@@ -27,6 +27,8 @@ const Hero = () => {
 
 export default Hero;
 
+// Exciting projects completed collaboratively with my classmates, following a two-week sprint using the agile methodology. This involved regular activities such as stand-up meetings, retrospectives, unit testing, and demonstrations.
+
 // Picture + Background
 // Hey there, I'm Alexandre
 // Young developer
